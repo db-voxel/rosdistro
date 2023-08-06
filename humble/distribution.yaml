@@ -4302,6 +4302,20 @@ repositories:
       url: https://github.com/pal-robotics/pmb2_simulation.git
       version: humble-devel
     status: developed
+  pmd_camera_ros:
+    release:
+      packages:
+      - pmd_camera_msgs
+      - pmd_camera_ros
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/db-voxel/pmd_camera_ros-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/db-voxel/pmd_camera_ros.git
+      version: humble
+    status: developed
   point_cloud_msg_wrapper:
     doc:
       type: git
